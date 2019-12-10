@@ -24,6 +24,6 @@ class EmailAddressParser
       #delete_suffix to remove extra "," on the first element
       # binding.pry
     end.uniq
-    #use flatten to remove 2nd array layer and uniq to remove duplicate elements
+    # use .uniq to delete duplciate elements
   end
 end
